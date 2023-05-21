@@ -29,8 +29,36 @@
   </p>
   <p class="card-bg-subtitle">Books By Shusterman</p>
 
-  <div class="flex overflow-auto w-full">
-    <img src="./">
+  <div class="flex overflow-scroll no-card"> 
+    <img src="../assets/TeslasAttic1.webp " class="book">
+    <img src="../assets/EddisonsAlley2.webp" class="book">
+    <img src="../assets/HawkingsHallway3.webp" class="book">
+    <img src="../assets/scythe1.webp" class="book">
+    <img src="../assets/thunderhead5.webp" class="book">
+    <img src="../assets/Toll6.webp" class="book">
+    <img src="../assets/deadlocks7.webp" class="book">
+    <img src="../assets/RedRidersHood8.webp" class="book">
+    <img src="../assets/DuskingUgly9.webp" class="book">
+    <img src="../assets/MindTwisters10.webp" class="book">
+    <img src="../assets/MindBenders11.webp" class="book">
+    <img src="../assets/MindQuakes12.webp" class="book">
+    <img src="../assets/MindStorms13.webp" class="book">
+    <img src="../assets/Walrus14.webp" class="book">
+    <img src="../assets/TheShawaWasHere15.webp" class="book">
+    <img src="../assets/AntsyDoesTime16.webp" class="book">
+    <img src="../assets/ShipOutOfLuck17.webp" class="book">
+    <img src="../assets/ShadowClub18.webp" class="book">
+    <img src="../assets/ShadowClubRising19.webp" class="book">
+    <img src="../assets/EverLost20.webp" class="book">
+    <img src="../assets/EverWild21.webp" class="book">
+    <img src="../assets/EverFound22.webp" class="book">
+    <img src="../assets/ScorpionShards23.webp" class="book">
+    <img src="../assets/ThiefOfSouls24.webp" class="book">
+    <img src="../assets/ShaterdSky25.webp" class="book">
+    <img src="../assets/unwind26.webp" class="book">
+    <img src="../assets/unwholly27.webp" class="book">
+    <img src="../assets/unsouled28.webp" class="book">
+    <img src="../assets/unbound30.webp" class="book">
   </div>
 
 </template> 

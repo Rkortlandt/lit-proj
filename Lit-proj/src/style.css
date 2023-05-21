@@ -28,6 +28,14 @@
     .no-card-left-md {
       @apply text-black text-lg mx-2 my-2 p-16 rounded-lg shadow-lg transition-colors
     }
+
+    .book-bg {
+      @apply bg-teal-900 text-teal-600 text-center mx-2 my-2 h-fit w-fit rounded-lg shadow-lg 
+    }
+
+    .book {
+      @apply rounded-lg shadow-lg hover:shadow-2xl transition-shadow mx-2
+    }
 }
 
 
