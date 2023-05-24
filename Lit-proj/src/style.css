@@ -11,18 +11,27 @@
     }
 
     .card-bg-title {
-      @apply bg-teal-950 text-teal-600 text-center text-7xl hover:text-white mx-2 my-2 p-16 rounded-lg shadow-lg transition-colors
+      @apply bg-teal-950 text-teal-600 text-center text-7xl hover:text-white p-16 rounded-lg shadow-lg transition-colors max-sm:text-3xl
     }
 
     .card-bg-subtitle {
-      @apply bg-teal-950 text-teal-600 text-center text-5xl hover:text-white mx-10 my-2 p-14 rounded-lg shadow-lg transition-colors
+      @apply bg-teal-950 text-teal-600 text-center text-5xl hover:text-white mx-10 my-2 p-14 rounded-lg shadow-lg transition-colors max-sm:text-2xl
     }
 
     .card-bg {
       @apply bg-teal-900 text-teal-600 text-center text-xl hover:text-white mx-2 my-2 p-16 rounded-lg shadow-lg transition-colors
     }
+
+    .card-bg-contrast {
+      @apply bg-teal-900 text-teal-400 text-center text-xl hover:text-white mx-2 my-2 p-16 rounded-lg shadow-lg transition-colors
+    }
+
     .no-card {
       @apply text-black text-center text-xl mx-2 my-2 p-16 rounded-lg shadow-lg transition-colors
+    }
+    
+    .no-card-sm {
+      @apply text-black text-center text-lg mx-2 my-2 p-8 rounded-lg shadow-lg transition-colors
     }
 
     .no-card-left-md {
@@ -30,12 +39,29 @@
     }
 
     .book-bg {
-      @apply bg-teal-900 text-teal-600 text-center mx-2 my-2 h-fit w-fit rounded-lg shadow-lg 
+      @apply bg-teal-900 text-teal-600 text-center px-2 py-2 rounded-lg shadow-lg min-h-fit min-w-fit mx-1 hover:shadow-2xl transition-shadow hover:bg-teal-950 transition-colors
     }
 
     .book {
-      @apply rounded-lg shadow-lg hover:shadow-2xl transition-shadow mx-2
+      @apply rounded-lg shadow-lg hover:shadow-2xl transition-shadow
     }
 }
+
+.Container {  
+  display: grid;
+  grid-template-columns: auto 2.3fr;
+  grid-template-rows: auto 1fr ;
+  gap: 0px 0px;
+  grid-auto-flow: column;
+  grid-template-areas:
+    "Side-Nav Top-Nav"
+    "Side-Nav Body";
+}
+
+.Side-Nav { grid-area: Side-Nav;}
+
+.Top-Nav { grid-area: Top-Nav; }
+
+.Body { grid-area: Body; }
 
 
