@@ -99,14 +99,14 @@ export default {
   <div class="Side-Nav">
     <div class="transform top-0 left-0 w-64 bg-slate-300 py-2 px-2 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30" :class="menu ? 'translate-x-0' : '-translate-x-full'">
       <!-- Nav enabled -->
-      <button class="max-sm:hidden block py-2" @click="menu = !menu"><span class="material-symbols-outlined">menu</span></button>
-      <a href="#/" class="nav-button">Home</a>
-      <a href="#/Author" class="nav-button">Author</a>    
-      <a href="#/Plot" class="nav-button">Plot</a>
-      <a href="#/Characters" class="nav-button">Characters</a>
-      <a href="#/Setting" class="nav-button">Setting</a>
-      <a href="#/Symbolism" class="nav-button">Symbolism</a>
-      <a href="#/Theme" class="nav-button">Theme</a>
+      <button class=" block py-2" @click="menu = !menu"><span class="material-symbols-outlined">menu</span></button>
+      <a href="#/" class="side-nav-nav-button block">Home</a>
+      <a href="#/Author" class="side-nav-nav-button block">Author</a>    
+      <a href="#/Plot" class="side-nav-nav-button block">Plot</a>
+      <a href="#/Characters" class="side-nav-nav-button block">Characters</a>
+      <a href="#/Setting" class="side-nav-nav-button block">Setting</a>
+      <a href="#/Symbolism" class="side-nav-nav-button block">Symbolism</a>
+      <a href="#/Theme" class="side-nav-nav-button block">Theme</a>
     </div>
     <div class="flex flex-col h-fit rounded-br-xl shadow-lg bg-slate-200 w-fit items-center z-40 sticky top-0 left-0">
       <!-- Nav Disabled -->
