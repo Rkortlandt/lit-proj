@@ -31,7 +31,7 @@
     }
 
     .no-card {
-      @apply text-black text-center text-xl mx-2 my-2 p-16 rounded-lg shadow-lg transition-colors max-sm:p-8
+      @apply text-black text-center text-xl mx-2 my-2 p-16 rounded-lg shadow-lg transition-colors max-sm:p-8 max-sm:text-lg
     }
     
     .no-card-sm {

@@ -86,7 +86,7 @@ export default {
       <a href="#/Plot" class="nav-button">Plot</a>
       <a href="#/Characters" class="nav-button">Characters</a>
       <a href="#/Setting" class="nav-button">Setting</a>
-      <a href="#/Symbolism" class="nav-button">Symbolism</a>
+      <!-- <a href="#/Symbolism" class="nav-button">Symbolism</a> -->
       <a href="#/Theme" class="nav-button">Theme</a>
     </div>
   </div>
@@ -105,7 +105,7 @@ export default {
       <a href="#/Plot" class="side-nav-nav-button block">Plot</a>
       <a href="#/Characters" class="side-nav-nav-button block">Characters</a>
       <a href="#/Setting" class="side-nav-nav-button block">Setting</a>
-      <a href="#/Symbolism" class="side-nav-nav-button block">Symbolism</a>
+      <!-- <a href="#/Symbolism" class="side-nav-nav-button block">Symbolism</a> -->
       <a href="#/Theme" class="side-nav-nav-button block">Theme</a>
     </div>
     <div class="flex flex-col h-fit rounded-br-xl shadow-lg bg-slate-200 w-fit items-center z-40 sticky top-0 left-0">
